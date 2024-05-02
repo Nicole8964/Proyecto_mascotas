@@ -1,0 +1,77 @@
+.contenedor1{
+    background-image: url(fondo1.jpg);
+    text-align: center;
+    height: 380px;
+    line-height: 0.7;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caja {
+    display: flex;
+    align-content: center;
+    margin: 10px 15px;
+    padding: 15px 50px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    width: 300px; 
+    background-color: rgb(29, 84, 94);
+  }
+input[type="text"] {
+    width: 60%;
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.logo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: -20px;
+}
+.text{
+    text-align: center;
+    size: 15px;
+    color: #0a6099;
+    margin-top: -20px;
+}
+.contenido{
+    justify-content: center;
+    width: 70%;
+    font-size: 16px;   
+}
+.buton{
+    color:white;
+    background-color: #05ce20;
+    width: 100%;
+    border-top:20px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.robot{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 2px solid  #b3b1b1;
+    background-color: #e7e7e7;
+    font-size: 16px;  
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;    
+}
+@media screen and (max-width: 600px) {
+    .caja{
+        width: 90%;
+    }  
+}
