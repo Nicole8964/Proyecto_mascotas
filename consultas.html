@@ -51,21 +51,22 @@
         <p>correo electrónico, indicando la especie del animal de compañía (gato o perro), su número de
             microchip, región y comuna del hallazgo.</p>
     </div>
-    <div class="caja">
+    <form action="">
+      <div class="caja">
         <div class="contenido">
             <li><p>Microchip/Identificador:</p></li>
-                <input type="text">
+                <input type="text" maxlength="10">
             <li><p>Confirmación identidad: </p></li>
              <div class="robot">
                 <label for="">
                 <input type="checkbox">  No soy un robot
                 </label></br>
-                    <img src="Assets/img/" alt="" class="imagen">
-                     </div>
+                    <img src="Assets/img/captcha.png" alt="" class="imagen">
+             </div>
                     <button class="buton" onclick='capturar()' >Ingresar</button>
-        <input type="reset" value="Limpiar">
-        </div>
-    </div>
+                    <button class="buton" type="reset" onclick='capturar()'>Limpiar</button>
+       </div>
+    </form>
 </body>
 
 </html>
